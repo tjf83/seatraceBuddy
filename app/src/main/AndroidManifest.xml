@@ -19,6 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SeatRacer"
+            android:label="@string/title_activity_seat_racer"
+            android:parentActivityName=".EntryWindow"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.trevor.seatracebuddy.EntryWindow" />
+        </activity>
     </application>
 
 </manifest>
