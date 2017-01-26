@@ -1,6 +1,7 @@
 package com.example.trevor.seatracebuddy;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -82,6 +83,11 @@ public class EntryWindow extends AppCompatActivity {
             return false;
         }
     };
+
+    public void swapActivities(View view) {
+        Intent intent = new Intent(this, )
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
